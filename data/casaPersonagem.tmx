@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="21" tilewidth="16" tileheight="16" nextobjectid="83">
+ <tileset firstgid="1" name="casa" tilewidth="16" tileheight="16" tilecount="672" columns="32">
+  <image source="6465.png" trans="ffffff" width="512" height="342"/>
+ </tileset>
+ <tileset firstgid="673" name="cama" tilewidth="16" tileheight="16" tilecount="240" columns="15">
+  <image source="34626.png" trans="ffffff" width="240" height="260"/>
+  <tile id="150">
+   <objectgroup draworder="index">
+    <object id="0" x="6" y="9.27273" width="10" height="6.36364"/>
+   </objectgroup>
+  </tile>
+  <tile id="151">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.545455" y="9.63636" width="17.0909" height="6.90909"/>
+   </objectgroup>
+  </tile>
+  <tile id="152">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.727273" y="11.0909" width="7.81818" height="4.72727"/>
+   </objectgroup>
+  </tile>
+  <tile id="165">
+   <objectgroup draworder="index">
+    <object id="0" x="6.36364" y="0" width="9.63636" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="167">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.545455" y="0" width="8" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="180">
+   <objectgroup draworder="index">
+    <object id="0" x="6.72727" y="-0.363636" width="9.09091" height="16.5455"/>
+   </objectgroup>
+  </tile>
+  <tile id="182">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.181818" y="0" width="7.09091" height="15.4545"/>
+   </objectgroup>
+  </tile>
+  <tile id="183">
+   <animation>
+    <frame tileid="183" duration="100"/>
+    <frame tileid="184" duration="100"/>
+    <frame tileid="185" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="195">
+   <objectgroup draworder="index">
+    <object id="0" x="6.90909" y="-0.363636" width="8.90909" height="10.3636"/>
+   </objectgroup>
+  </tile>
+  <tile id="196">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="10"/>
+   </objectgroup>
+  </tile>
+  <tile id="197">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.727273" y="-0.181818" width="8.54545" height="10"/>
+   </objectgroup>
+  </tile>
+  <tile id="198">
+   <animation>
+    <frame tileid="183" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="913" name="fogueira" tilewidth="18" tileheight="18" tilecount="7" columns="7">
+  <image source="fogueira.png" trans="ffffff" width="129" height="18"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="920" name="itens" tilewidth="18" tileheight="16" tilecount="384" columns="24">
+  <image source="itens.png" trans="ffffff" width="442" height="258"/>
+ </tileset>
+ <tileset firstgid="1304" name="itens2" tilewidth="16" tileheight="16" tilecount="186" columns="31">
+  <image source="^41A64266D5A10E822B2D515306D3BB6BD2CD82825CDEFE3F22^pimgpsh_fullsize_distr.png" trans="ffffff" width="509" height="105"/>
+ </tileset>
+ <layer name="Casa" width="32" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC53VY8wYVhQG4K+2vbarbWO1bds2V9u2bXPdatvY1nY1t1pb3e5p0h9Lk/35bs6T3OQk77nn1w0SEBAQlGAEJwQhCUVowhCWcIQnAhGJRGSiEJVoAYE7iUhMEpKSjOSkICWpSE0a0pKO9GQgI5nITJZAzi9IIQpThKIUozglKEkpSlOGspSjPBWoSCUqB3J+QxrRmCY0pRnNaUFLWtGaNrSlHe3pQEc60fl/8nvQ8+u9N32+6Q9gIIMYzBCGMozhjGAkoxjNGMYyjvFMYCKTArV9QMACFrKIxSxhKctYzgpWsorVrGEt61jPBjayic1fM7f8J38r29jODnayi93sYS/72M8BDnKIwxzhKMc4zglOcorTnOEs5zjPhW92u8glLvMHV7jKNa5zg5vc4jZ3uMs97vMnf/GAhzziMU94yjOe84KXvOJv/uE1b3jLO97zgY984vOXBwZRBCUYwQlBSEIRmjCEJRzhiUBEIhGZKEQlGtGJQUxiEZs4fEdc4hGf70lAQhKRmCQkJRnJSUFKUpGaNKQlHenJQEYykZksZCUb2clBTnKRmx/IQ17ykZ8CFKQQhSlCUYpRnBKUpBSlKUNZylGeClSkEpWpQlWqUZ0a1KQWtalDXepRnwY0pBGNaUJTmtGcFrSkFa1pQ1va0Z4OdKQTnelCV7rRnR/pQU960Zs+9KUf/RnAQAYxmCEMZRjDGcFIRjGaMYxlHOOZwEQmMZkpTGUa05nBTGYxmznMZR7zWcBCFrGYJSxlGctZwUpWsZo1rGUd69nARjaxmZ/Yws/8wla2sZ0d7GQXu9nDXvaxnwMc5BCHOcJRjnGcE5zkFKc5w1nOcZ4L/Mpv/M5FLnGZP7jCVa5xnRvc5Ba3ucNd7nGfP/mLBzzkEY95wlOe8ZwXvOQVf/MPr3nDW97xng985BOf+fLxByEowQhOCEISitCEISzhCE8EIhKJyEQhKtGITgxiEovYxOE74hKP+HxPAhKSiMQkISnJSE4KUpKK1KQhLelITwYykonMZCEr2chODnKSi9z8QB7yko/8FKAghShMEYpSjOKUoCSlKE0ZylKO8lSgIpWoTBWqUo3q1KAmtahNHepSj/o0oCGNaEwTmtKM5rSgJa1oTRva0o72dKAjnehMF7rSje78SA960ove9KEv/ejPAAYyiMEMYSjDGM4IRjKK0YxhLOMYzwQmMonJTGEq05jODGYyi9nMYS7zmM+/DhG3toAKAAA=
+  </data>
+ </layer>
+ <layer name="Objetos" width="32" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VSw7BUBhGb9J2ykqIGTaAATHCBrAfc0y855h4r8F7DYyZOg1Nbpq2mqoQepKT9Lbf/b/ZXyG+g7giRAKTymsZr6SYmcYM9nAgdRhnOeM3BWYWsYR7PEodxlnO+E2ZmRWsOsx2kwkICPgNIpoQUYxhXRWigU3VOnvi/fnxTd+XfdMONbiQudrMMJOlN4d5HHJnhGObuwoZVbs/L+hd4sqiP0QmrLnr94q+rw+mHf6MFtk2drD7pv1ac5g74dsUZzj/wH5f07nBLe6C/8vfcAPwAt+wgAoAAA==
+  </data>
+ </layer>
+ <objectgroup name="ObjetosColisao">
+  <object id="30" name="cama1" x="34.6667" y="28.6667" width="35.3333" height="44.6667"/>
+  <object id="32" name="cama2" x="182.667" y="26" width="32" height="46.6667"/>
+  <object id="35" name="bigorna" x="419.333" y="275.333" width="58" height="21.3333"/>
+  <object id="36" name="fogueira" x="434" y="240" width="14" height="14.6667"/>
+  <object id="74" name="mesa1" x="340.667" y="194.667" width="43.3333" height="28.6667"/>
+  <object id="75" name="mesa2" x="32.6667" y="238" width="58" height="35.3333"/>
+  <object id="76" name="mesinha" x="85.3333" y="31.3333" width="28" height="18.6667"/>
+  <object id="77" name="mesinha2" x="148.667" y="30" width="28" height="18"/>
+  <object id="78" name="estante" x="32" y="179.333" width="30" height="42"/>
+  <object id="79" name="comoda" x="119.333" y="191.333" width="32" height="30"/>
+  <object id="80" name="prateleira" x="162.667" y="198.667" width="45.3333" height="26"/>
+  <object id="81" name="barris" x="398.667" y="190.667" width="33.3333" height="24"/>
+ </objectgroup>
+ <objectgroup name="Paredes">
+  <object id="41" name="paredeQuarto" x="83.3333" y="136">
+   <polygon points="0,0 -52.6667,0.666667 -50.6667,-108.667 138.667,-105.333 139.333,0 20,1.33333 20,33.3333 171.333,36 171.333,-135.333 -83.3333,-135.333 -82,34.6667 0,33.3333"/>
+  </object>
+  <object id="45" name="paredeSala" x="82.6667" y="204">
+   <polygon points="0,0 0,-32.6667 -81.3333,-32 -82,131.333 174,130.667 172,-30.6667 22,-31.3333 21.6667,-0.666667 138,-0.666667 138.667,51.3333 156.667,50 156,69.3333 140,69.3333 140,104 56,104.667 58.6667,118.667 30,119.333 31.3333,106 -50,105.333 -50,0"/>
+  </object>
+  <object id="54" name="paredeFornalha" x="258" y="252">
+   <polygon points="-0.666667,2 30.6667,2.66667 30,-48 222,-48 221.333,56.6667 31.3333,57.3333 30.6667,22.6667 0,22.3333 0.666667,83.3333 254,84 253.333,-79.3333 -2,-78.6667"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="PortasColisao">
+  <object id="56" name="portaQuartoDesce" x="85" y="136" width="16.5" height="33.5"/>
+  <object id="57" name="portaQuartoSobe" x="84" y="172.5" width="19" height="31.5"/>
+  <object id="58" name="casaSaida" x="117.5" y="307" width="19.5" height="15"/>
+  <object id="60" name="fornalhaEntrada" x="222.5" y="257" width="15.5" height="15.5"/>
+  <object id="61" name="fornalhaSaida" x="256.5" y="255.5" width="32" height="17"/>
+ </objectgroup>
+ <layer name="OutrosObjetos" width="32" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGHxAmoWBQYYFN5/WwBholwkLbv4oGAWjYBTQGuSxMjDks5Kuj1rlZS/Q7j4y7IeVl89Hy8xRMApGAR4AAK/3bMKACgAA
+  </data>
+ </layer>
+ <layer name="Mais objetos" width="32" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwkECClYFBkpW6Zp5hgeCzUIwPmAPttqCi/V1A+55A8VMoxgfCgHaHU9H+RUD7/kDxXygeBcMTnMESt9jEhiv4g8Wv2MQGIwAA5Id0FoAKAAA=
+  </data>
+ </layer>
+</map>

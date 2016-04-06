@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="^3E203BAB1DB125E4FB1AAB3E359044787777444CEC5582B468^pimgpsh_fullsize_distr" tilewidth="16" tileheight="16" tilecount="300" columns="15">
+  <image source="../../PiGame/data/^3E203BAB1DB125E4FB1AAB3E359044787777444CEC5582B468^pimgpsh_fullsize_distr.png" trans="ffffff" width="240" height="320"/>
+ </tileset>
+ <layer name="Camada de Tiles 1" width="10" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACw3DxzvCAQAA0B+FONnjZEVOaRgnI+IkZJyywikyTyHkZBb/sfe+7zUFQdBsyLAtttpmxHY77LTLbnvstc9+Bxx0yGFHHHXMcaNOOGnMKeNOmzBpyrQzzjrnvAsuuuSyGVdcNeua626Yc9Mtt82746577lvwwEOPPPbEoqeeeW7JCy8te+W1N956570VH3z0yarPvvhqzTff/fDTL7/9sW7DX//8B7MLgSKQAQAA
+  </data>
+ </layer>
+</map>
