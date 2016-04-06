@@ -12,7 +12,7 @@ import org.newdawn.slick.Animation;
  * @author user
  */
 public abstract class Personagem extends ObjetosDoJogo{
-    protected int pontosDeVida, dano;
+    private int pontosDeVida, dano;
 
     public int getPontosDeVida() {
         return pontosDeVida;

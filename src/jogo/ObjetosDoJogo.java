@@ -1,7 +1,7 @@
 package jogo;
 
 public abstract class ObjetosDoJogo {
-    protected float posicaoX, posicaoY;
+    private float posicaoX, posicaoY;
 
     public float getPosicaoX() {
         return posicaoX;

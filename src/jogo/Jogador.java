@@ -2,9 +2,9 @@ package jogo;
 import org.newdawn.slick.*;
 
 public class Jogador extends Personagem  {
-    protected int quantidadeDeVidas;
-    protected Animation vidor, andandoPraFrente,andandoPraTras,andandoPraEsquerda,andandoPraDireita;
-    protected SpriteSheet cima, baixo, esquerda, direita;
+    private int quantidadeDeVidas;
+    private Animation vidor, andandoPraFrente,andandoPraTras,andandoPraEsquerda,andandoPraDireita;
+    private SpriteSheet cima, baixo, esquerda, direita;
     
     public Jogador() throws SlickException{
         quantidadeDeVidas=3;
@@ -25,19 +25,19 @@ public class Jogador extends Personagem  {
     
         public void movendoPraCima(){
             vidor = andandoPraFrente;
-            super.posicaoY+=5;
+            //super.posicaoY+=5;
         }
         public void movendoPraBaixo(){
             vidor = andandoPraTras;
-            super.posicaoY-=5;
+            //super.posicaoY-=5;
         }
         public void movendoPraDireita(){
             vidor = andandoPraDireita;
-            super.posicaoX+=5;
+            //super.posicaoX+=5;
         }
         public void movendoPraEsquerda(){
             vidor = andandoPraEsquerda;
-            super.posicaoX-=5;
+            //super.posicaoX-=5;
         }
 
     public int getQuantidadeDeVidas() {

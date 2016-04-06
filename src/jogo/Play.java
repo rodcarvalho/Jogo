@@ -7,12 +7,12 @@ import org.newdawn.slick.tiled.TiledMap;
 
 
 public class Play extends BasicGameState {
-    protected TiledMap mapa;
-    protected Boolean sair = false;
-    protected Animation vidor, cima,baixo,andandoPraEsquerda,andandoPraDireita;
-    protected int [] duracao = {150, 150,150};
-    protected float x=0;
-    protected float y=0;
+    private TiledMap mapa;
+    private Boolean sair = false;
+    private Animation vidor, cima,baixo,andandoPraEsquerda,andandoPraDireita;
+    private int [] duracao = {150, 150,150};
+    private float x=0;
+    private float y=0;
 
     public Play(int state){}
     
@@ -44,22 +44,22 @@ public class Play extends BasicGameState {
         if(input.isKeyDown(Input.KEY_S)){
             vidor = baixo;
             vidor.update(delta);
-            y+=0.5;
+            y+=0.1;
         }
         else if(input.isKeyDown(Input.KEY_W)){
             vidor=cima;
             vidor.update(delta);
-            y-=0.5;
+            y-=0.1;
         }
         else if(input.isKeyDown(Input.KEY_D)){
             vidor = andandoPraDireita;
             vidor.update(delta);
-            x+=0.5;
+            x+=0.1;
         }
         else if(input.isKeyDown(Input.KEY_A)){
             vidor = andandoPraEsquerda;
             vidor.update(delta);
-            x-=0.5;
+            x-=0.1;
         }
     } 
     @Override
