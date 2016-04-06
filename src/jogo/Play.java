@@ -13,6 +13,7 @@ public class Play extends BasicGameState {
     private int [] duracao = {150, 150,150};
     private float x=0;
     private float y=0;
+    private float velocidade = (float) 0.1;
 
     public Play(int state){}
     
@@ -44,22 +45,22 @@ public class Play extends BasicGameState {
         if(input.isKeyDown(Input.KEY_S)){
             vidor = baixo;
             vidor.update(delta);
-            y+=0.1;
+            y+=velocidade;
         }
         else if(input.isKeyDown(Input.KEY_W)){
             vidor=cima;
             vidor.update(delta);
-            y-=0.1;
+            y-=velocidade;
         }
         else if(input.isKeyDown(Input.KEY_D)){
             vidor = andandoPraDireita;
             vidor.update(delta);
-            x+=0.1;
+            x+=velocidade;
         }
         else if(input.isKeyDown(Input.KEY_A)){
             vidor = andandoPraEsquerda;
             vidor.update(delta);
-            x-=0.1;
+            x-=velocidade;
         }
     } 
     @Override
